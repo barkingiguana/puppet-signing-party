@@ -42,6 +42,12 @@ class SigningParty < Formula
     sha1 "008df9cfa6f9ab8d0b4f38c3e59d4e8679280bc1"
   end
 
+  resource "Net::IDN::Encode" do
+    url "http://search.cpan.org/CPAN/authors/id/C/CF/CFAERBER/Net-IDN-Encode-2.200.tar.gz"
+    mirror "http://search.cpan.org/CPAN/authors/id/C/CF/CFAERBER/Net-IDN-Encode-2.200.tar.gz"
+    sha1 "f7796a9d0404da8222b2c438668463a013fc1983"
+  end
+
   # gpgparticipants data on OS X behaves differently from linux version
   # https://github.com/Homebrew/homebrew/pull/21628
   patch :DATA

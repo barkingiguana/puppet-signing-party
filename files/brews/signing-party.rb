@@ -48,6 +48,36 @@ class SigningParty < Formula
     sha1 "f7796a9d0404da8222b2c438668463a013fc1983"
   end
 
+  resource "MooX::late" do
+    url "http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/MooX-late-0.014.tar.gz"
+    mirror "http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/MooX-late-0.014.tar.gz"
+    sha1 "d7bbb34c1e2f6ff06a97b404bed7fa2c58bac004"
+  end
+
+  resource "MooX::HandlesVia" do
+    url "http://search.cpan.org/CPAN/authors/id/M/MA/MATTP/MooX-HandlesVia-0.001005.tar.gz"
+    mirror "http://search.cpan.org/CPAN/authors/id/M/MA/MATTP/MooX-HandlesVia-0.001005.tar.gz"
+    sha1 "d9e58fca8b26004878de49390941d01d17a98d7f"
+  end
+
+  resource "Type::Tiny" do
+    url "http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Type-Tiny-0.044.tar.gz"
+    mirror "http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Type-Tiny-0.044.tar.gz"
+    sha1 "78854cb1ea3c3f57db3b9f10cece97ef11c3ab97"
+  end
+
+  resource "Exporter::Tiny" do
+    url "http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Exporter-Tiny-0.036.tar.gz"
+    mirror "http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Exporter-Tiny-0.036.tar.gz"
+    sha1 "6a2f60e6ec245bb6369c2ba4cfab9c74d3bd463f"
+  end
+
+  resource "Data::Perl" do
+    url "http://search.cpan.org/CPAN/authors/id/M/MA/MATTP/Data-Perl-0.002009.tar.gz"
+    mirror "http://search.cpan.org/CPAN/authors/id/M/MA/MATTP/Data-Perl-0.002009.tar.gz"
+    sha1 "e62244f9e09c1db528992bbf55954a1e4dc54067"
+  end
+
   # gpgparticipants data on OS X behaves differently from linux version
   # https://github.com/Homebrew/homebrew/pull/21628
   patch :DATA

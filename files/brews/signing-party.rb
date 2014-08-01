@@ -9,7 +9,7 @@ end
 class SigningParty < Formula
   homepage "http://pgp-tools.alioth.debian.org/"
   url "http://ftp.debian.org/debian/pool/main/s/signing-party/signing-party_1.1.8.orig.tar.gz"
-  sha1 "8bb854eab064b67740a23c44c1bb2eb497d9fdeb"
+  sha1 "58b3c94b60d3637689fd1bc7aaa2f5c1527416fb"
 
   option 'with-rename-pgpring', 'Install pgpring as pgppubring to avoid conflicting with mutt'
 
